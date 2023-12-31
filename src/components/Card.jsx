@@ -6,7 +6,7 @@ import { LuDownload } from "react-icons/lu";
 
 function Card({ data, reference }) {
   return (
-    <motion.div //fremer motion add code
+    <motion.div //framer motion add code
       drag
       dragConstraints={reference}
       whileDrag={{ scale: 1.1 }}
